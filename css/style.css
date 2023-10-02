@@ -110,14 +110,12 @@ footer {
     height: 85px;
 }
 
-.footer-logo {
-    border: black solid 2px;
+.footer-logo, .footer-button {
+    border: black dashed 2px;
+    height: 35px;
+    background-color: #ffb6c1;
 }
 
-.footer-button {
-    font-size: 30px;
-    border: black solid 2px;
-}
 
 
 
@@ -299,6 +297,7 @@ BOTTOM FOOTER
 .bottom-footer-card {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1250px;
 }
 
