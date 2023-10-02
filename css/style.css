@@ -90,6 +90,22 @@ footer {
     height: 120px;
 }
 
+.top-footer-card {
+    height: 620px;
+    
+}
+
+.top-footer-card div:first-child {
+    background-color: #f08080;
+    border: black dashed 2px;
+  }
+
+.top-footer-card div:not(:first-child) {
+    background-color: #20b2aa;
+    border: white dashed 2px;
+  }
+
+
 
 
   
@@ -191,8 +207,6 @@ SECTION
 }
 
 .column {
-    background-color:#ffc0cb;
-    border: black dashed 2px;
     min-width: 500px;
     flex-shrink: 0;
 }
@@ -224,14 +238,47 @@ FOOTER
 *****
 */
 
+/* 
+*****
+TOP FOOTER
+*****
+*/
+
 .top-footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.top-footer-card {
+    width: 1250px;
+    display: flex;
+}
+
+.top-footer-card div:first-child {
+    background-color: #f08080; /* Example background color */
+  }
+
+  .top-footer-card div:first-child {
+    flex: 2;
+  }
+
+.top-footer-card div:not(:first-child) {
+    flex: 1;
+  }
+
+
+/* 
+*****
+BOTTOM FOOTER
+*****
+*/
 
 .bottom-footer {
     display: flex;
     border-top: white solid 2px;
     border-bottom: white solid 1px;
 }
+
 
 
