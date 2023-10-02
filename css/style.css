@@ -57,6 +57,21 @@ main section:nth-child(even) {
     height: 1050px;
 }
 
+.section-1-card {
+    height: 520px;
+    border: black dashed 2px;
+}
+
+.content-box {
+    background-color: #1e90ff;
+    border: black dashed 2px;
+}
+
+.column {
+    background-color:#ffc0cb;
+    border: black dashed 2px;
+}
+
 
   
 
@@ -126,3 +141,41 @@ BOTTOM HEADER
 #bottom-header-card {
     width: 950px;
 }
+
+/* 
+*****
+MAIN
+*****
+*/
+
+
+/* 
+*****
+SECTION 1
+*****
+*/
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-card {
+    width: 1250px;
+    display: flex;
+
+}
+
+.content-box {
+    flex-grow: 1;
+}
+
+.column {
+    background-color:#ffc0cb;
+    border: black dashed 2px;
+    min-width: 500px;
+    flex-shrink: 0;
+}
+
+
