@@ -78,6 +78,19 @@ main section:nth-child(even) {
     border: black dashed 2px;
 }
 
+footer {
+    background-color: #23272a;
+}
+
+.top-footer {
+    height: 670px;
+}
+
+.bottom-footer {
+    height: 120px;
+}
+
+
 
   
 
@@ -204,4 +217,21 @@ BOTTOM SECTION
 .bottom-card {
     width: 1250px;
 }
+
+/* 
+*****
+FOOTER
+*****
+*/
+
+.top-footer {
+    display: flex;
+}
+
+.bottom-footer {
+    display: flex;
+    border-top: white solid 2px;
+    border-bottom: white solid 1px;
+}
+
 
