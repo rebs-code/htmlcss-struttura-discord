@@ -28,12 +28,30 @@ DEBUG
     background-color: #daa520;
 }
 
+.bottom-header {
+    background-color: #00008b;
+    height: 520px;
+}
+
+#bottom-header-card {
+    background-color: #ee82ee;
+    height: 420px;
+}
+
 
 
 
 /* 
 *****
 HEADER
+*****
+*/
+
+
+
+/* 
+*****
+TOP HEADER
 *****
 */
 
@@ -72,4 +90,18 @@ nav {
 
 #logo {
     padding-left: 10px;
+}
+
+/* 
+*****
+BOTTOM HEADER
+*****
+*/
+
+.bottom-header {
+    display: flex;
+}
+
+#bottom-header-card {
+    width: 950px;
 }
