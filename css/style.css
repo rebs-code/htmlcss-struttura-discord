@@ -194,10 +194,14 @@ BOTTOM SECTION
 *****
 */
 
-.bottom-card {
-    max-width: 1250px;
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
+.bottom-card {
+    width: 1250px;
+}
 
