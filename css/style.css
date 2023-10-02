@@ -39,6 +39,26 @@ DEBUG
     border: black dashed 2px;
 }
 
+section {
+    height: 630px;
+    background-color: white;
+}
+
+main section:nth-child(odd) {
+    height: 630px;
+    background-color: white; 
+  }
+
+main section:nth-child(even) {
+    background-color: #d3d3d3; 
+  }
+
+.bottom-section {
+    height: 1050px;
+}
+
+
+  
 
 /* 
 *****
