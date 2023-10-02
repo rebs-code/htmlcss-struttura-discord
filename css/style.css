@@ -105,6 +105,20 @@ footer {
     border: white dashed 2px;
   }
 
+.bottom-footer-card {
+    background-color: #7fffd4;
+    height: 85px;
+}
+
+.footer-logo {
+    border: black solid 2px;
+}
+
+.footer-button {
+    font-size: 30px;
+    border: black solid 2px;
+}
+
 
 
 
@@ -278,7 +292,24 @@ BOTTOM FOOTER
     display: flex;
     border-top: white solid 2px;
     border-bottom: white solid 1px;
+    justify-content: center;
+    align-items: flex-end;
 }
+
+.bottom-footer-card {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+}
+
+.footer-logo {
+    font-size: 30px;
+}
+
+.footer-button {
+    font-size: 30px;
+}
+
 
 
 
