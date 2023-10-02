@@ -57,7 +57,7 @@ main section:nth-child(even) {
     height: 1050px;
 }
 
-.section-1-card {
+.section-card {
     height: 520px;
     border: black dashed 2px;
 }
@@ -69,6 +69,12 @@ main section:nth-child(even) {
 
 .column {
     background-color:#ffc0cb;
+    border: black dashed 2px;
+}
+
+.bottom-card {
+    background-color: #228b22;
+    height: 950px;
     border: black dashed 2px;
 }
 
@@ -151,17 +157,17 @@ MAIN
 
 /* 
 *****
-SECTION 1
+SECTION
 *****
 */
 
-.section-1 {
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-1-card {
+.section-card {
     width: 1250px;
     display: flex;
 
@@ -177,5 +183,21 @@ SECTION 1
     min-width: 500px;
     flex-shrink: 0;
 }
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* 
+*****
+BOTTOM SECTION
+*****
+*/
+
+.bottom-card {
+    max-width: 1250px;
+}
+
+
 
 
