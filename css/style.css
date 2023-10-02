@@ -23,7 +23,7 @@ DEBUG
 }
 
 #login, #logo, #link {
-    border: black dashed 1px;
+    border: black dashed 2px;
     height: 50px;
     background-color: #daa520;
 }
@@ -36,9 +36,8 @@ DEBUG
 #bottom-header-card {
     background-color: #ee82ee;
     height: 420px;
+    border: black dashed 2px;
 }
-
-
 
 
 /* 
@@ -100,6 +99,8 @@ BOTTOM HEADER
 
 .bottom-header {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #bottom-header-card {
